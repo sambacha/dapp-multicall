@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "declaration": true,
+        "forceConsistentCasingInFileNames": true,
+        "lib": ["es2018"],
+        "module": "commonjs",
+        "noEmitOnError": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "pretty": true,
+        "sourceMap": true,
+        "strict": true,
+        "target": "es2018",
+    "outDir": "./dist",
+    "baseUrl": "src/",
+    "rootDir": "./src",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true
+    },
+  "include": ["./src/**/*"],
+  "exclude": ["./node_modules/**/*"]
+}
